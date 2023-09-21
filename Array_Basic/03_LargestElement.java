@@ -2,7 +2,7 @@ package Array_Basic;
 
 import java.io.*;
 
-public class LargestElement {
+class LargestElement {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
