@@ -1,5 +1,7 @@
 package Array_Basic;
+
 import java.io.*;
+
 public class SearchElement {
 
 	public static void main(String[] args) throws IOException {
@@ -14,9 +16,9 @@ public class SearchElement {
 		}
 		
 		int flag = 0;
-		System.out.println("Enter element to serach : ");
+		System.out.println("Enter element to search : ");
 		int n = Integer.parseInt(br.readLine());
-		for(int i = 0; i<arr.length; i++) {
+		for(int i=0; i<arr.length; i++) {
 			if(arr[i]==n) {
 				System.out.println(n+" found at index "+i);
 				flag = 1;
