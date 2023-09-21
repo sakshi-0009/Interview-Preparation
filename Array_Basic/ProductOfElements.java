@@ -16,7 +16,6 @@ public class ProductOfElements {
 		for(int i=0; i<arr.length; i++) {
 			arr[i] = Integer.parseInt(br.readLine());
 		}
-		
 		int prod = 1;
 		for(int i=1; i<arr.length; i++) {
 			prod = prod*arr[i];
