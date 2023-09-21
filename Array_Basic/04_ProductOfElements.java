@@ -2,12 +2,10 @@ package Array_Basic;
 
 import java.io.*;
 
-public class ProductOfElements {
+class ProductOfElements {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter number of test cases : ");
-		int T = Integer.parseInt(br.readLine());
 		System.out.println("Enter array size : ");
 		int size = Integer.parseInt(br.readLine());
 		
