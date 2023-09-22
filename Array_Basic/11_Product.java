@@ -27,6 +27,7 @@ class Product {
             }
         }
         System.out.println(max);
+
         int min = secArr[0];
         for (int i = 1; i < secArr.length; i++) {
             if (secArr[i] < min) {
@@ -34,6 +35,7 @@ class Product {
             }
         }
         System.out.println(min);
+        
         int product = max*min;
         System.out.println("Product of max in first and min in second: " + product);
     }
