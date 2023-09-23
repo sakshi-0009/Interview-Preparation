@@ -17,7 +17,7 @@ class SecondLargest {
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
-        for (int i=1; i<arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > largest) {
                 secondLargest = largest;
                 largest = arr[i];
@@ -27,7 +27,8 @@ class SecondLargest {
         }
 
         if (secondLargest != Integer.MIN_VALUE) {
-            System.out.println("The largest element is "+largest+" and The second largest element is: " + secondLargest);
+            System.out.println(
+                    "The largest element is " + largest + " and The second largest element is: " + secondLargest);
         } else {
             System.out.println("There is no second largest element.");
         }

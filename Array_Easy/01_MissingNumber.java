@@ -16,7 +16,7 @@ class MissingNumber {
         int expectedSum = (n * (n + 1)) / 2;
 
         int actualSum = 0;
-        for (int num : arr) {
+        for (int i=1; i<arr.length; i++) {
             actualSum  = actualSum + num;
         }
 
