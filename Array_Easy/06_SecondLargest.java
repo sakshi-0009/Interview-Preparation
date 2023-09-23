@@ -13,16 +13,16 @@ class SecondLargest {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = Integer.parseInt(br.readLine());
         }
-        
+
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
-        for (int num : arr) {
-            if (num > largest) {
+        for (int i=1; i<arr.length; i++) {
+            if (arr[i] > largest) {
                 secondLargest = largest;
-                largest = num;
-            } else if (num > secondLargest && num != largest) {
-                secondLargest = num;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
             }
         }
 
