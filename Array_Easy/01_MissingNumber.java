@@ -1,5 +1,7 @@
 package Array_Easy;
+
 import java.io.*;
+
 class MissingNumber {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -16,8 +18,8 @@ class MissingNumber {
         int expectedSum = (n * (n + 1)) / 2;
 
         int actualSum = 0;
-        for (int i=1; i<arr.length; i++) {
-            actualSum  = actualSum + num;
+        for (int i = 1; i < arr.length; i++) {
+            actualSum = actualSum + arr[i];
         }
 
         int missingElement = expectedSum - actualSum;
