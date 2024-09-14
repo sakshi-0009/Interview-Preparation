@@ -15,7 +15,6 @@ public class MaxNumber {
 		}
 		System.out.println("Minimum element is: "+max);
 	}
-	
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
